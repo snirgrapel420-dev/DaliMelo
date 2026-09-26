@@ -38,7 +38,7 @@ target_sources(GoaMelodyEngine PRIVATE
 target_compile_definitions(GoaMelodyEngine PUBLIC
   JUCE_WEB_BROWSER=0
   JUCE_USE_CURL=0
-  JUCE_VST3_CAN_REPLACE_VST2=0
+  JUCE_VST3_CAN_REPLACE_VST2=0)
 
 target_link_libraries(GoaMelodyEngine
   PRIVATE juce::juce_audio_utils juce::juce_audio_processors
